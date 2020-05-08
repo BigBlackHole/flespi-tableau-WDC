@@ -20,6 +20,9 @@
 	    }, {
 	    id: "speed",
 		dataType: tableau.dataTypeEnum.float
+	    }, {
+	    id: "driver1",
+	    	dataType: tableau.dataTypeEnum.int
 	    }];
 
 	var tableSchema = {
@@ -48,6 +51,7 @@
 				        "altitude": feat[i]["position.altitude"],
 				        "ignition": feat[i]["engine.ignition.status"],
 				        "speed": feat[i]["position.speed"],
+					"driver1": feat[i]["custom.tco_driver1_id"],
 				     });
 				}
 				// append rows (messages) to the table
