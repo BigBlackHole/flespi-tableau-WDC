@@ -22,7 +22,7 @@
 		dataType: tableau.dataTypeEnum.float
 	    }, {
 	    id: "driver1",
-	    	dataType: tableau.dataTypeEnum.int
+	    	dataType: tableau.dataTypeEnum.float
 	    }];
 
 	var tableSchema = {
