@@ -59,7 +59,7 @@
 				        "speed": feat[i]["position.speed"],
 					"driver1_id": feat[i]["custom.tco_driver1_id"],
 					"driver1_status": feat[i]["custom.tco_activity_type1"],
-					"driver1_duration": feat[i]["custom.tco_activity_tm1"],
+					"driver1_duration": feat[i]["custom.tco_activity_tm1"]
 				     });
 				}
 				// append rows (messages) to the table
